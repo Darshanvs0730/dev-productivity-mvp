@@ -41,7 +41,7 @@ npm start
 
 
 
-2. Start the Frontend Application
+### 2. Start the Frontend Application
 Open a new terminal window:
 
 bash
@@ -51,7 +51,7 @@ npm run dev
 
 
 
-🧠 Design Trade-offs & Decisions
+### Design Trade-offs & Decisions
 Why an Insight Engine over Charts? Numbers do not drive behavior change; narrative and clear actions do. The backend logic was heavily weighted toward generating advice rather than transforming data for charting libraries.
 Why static data instead of a Database? The provided dataset consisted of exactly 32 issues/PRs. Implementing PostgreSQL or MongoDB would have added significant operational overhead without improving the end-user experience. Static JSON arrays allowed for 100% focus on business logic.
 Designed & Developed by Darshan V S
