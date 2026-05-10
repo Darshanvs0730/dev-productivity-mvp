@@ -42,9 +42,7 @@ npm start
 
 
 ### 2. Start the Frontend Application
-Open a new terminal window:
-
-bash
+```bash
 cd frontend
 npm install
 npm run dev
