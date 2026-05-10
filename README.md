@@ -1,6 +1,6 @@
 > An intelligent developer productivity dashboard designed to move engineering teams from raw data to actionable insights.
 
-![Dashboard Screenshot]
+!Dashboard Screenshot
 <img width="1710" height="946" alt="Screenshot 2026-05-11 at 1 02 39 am" src="https://github.com/user-attachments/assets/9b3a984f-01c1-4da1-b9e7-94f451fddea8" />
 
 
@@ -38,10 +38,11 @@ To run this application locally, you will need [Node.js](https://nodejs.org/) in
 cd backend
 npm install
 npm start
+```
 
+2. Start the Frontend Application
+Open a new terminal window:
 
-
-### 2. Start the Frontend Application
 ```bash
 cd frontend
 npm install
@@ -49,6 +50,7 @@ npm run dev
 
 
 
+```
 ### Design Trade-offs & Decisions
 Why an Insight Engine over Charts? Numbers do not drive behavior change; narrative and clear actions do. The backend logic was heavily weighted toward generating advice rather than transforming data for charting libraries.
 Why static data instead of a Database? The provided dataset consisted of exactly 32 issues/PRs. Implementing PostgreSQL or MongoDB would have added significant operational overhead without improving the end-user experience. Static JSON arrays allowed for 100% focus on business logic.
