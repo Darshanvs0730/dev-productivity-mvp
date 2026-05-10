@@ -1,5 +1,3 @@
-<img width="1710" height="946" alt="Screenshot 2026-05-11 at 1 02 39 am" src="https://github.com/user-attachments/assets/7347502f-290e-4175-a8c7-f09466bcf47e" /># DevPulse 📊
-
 > An intelligent developer productivity dashboard designed to move engineering teams from raw data to actionable insights.
 
 ![Dashboard Screenshot]
