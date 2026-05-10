@@ -47,9 +47,6 @@ npm start
 cd frontend
 npm install
 npm run dev
-
-
-
 ```
 ### Design Trade-offs & Decisions
 Why an Insight Engine over Charts? Numbers do not drive behavior change; narrative and clear actions do. The backend logic was heavily weighted toward generating advice rather than transforming data for charting libraries.
