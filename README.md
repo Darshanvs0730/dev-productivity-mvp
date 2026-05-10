@@ -40,8 +40,8 @@ npm install
 npm start
 ```
 
-2. Start the Frontend Application
-Open a new terminal window:
+### 2. Start the Frontend Application
+### Open a new terminal window:
 
 ```bash
 cd frontend
